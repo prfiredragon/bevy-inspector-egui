@@ -1,0 +1,10 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./Cargo.toml"
+    ],
+    "search.exclude": {
+        "**/target": true,
+        "**/*.rs.bk": true,
+        "**/Cargo.lock": true
+    }
+}

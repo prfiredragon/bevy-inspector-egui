@@ -172,7 +172,7 @@ impl UiState {
             pointer_in_viewport: &mut self.pointer_in_viewport,
         };
         DockArea::new(&mut self.state)
-            .style(Style::from_egui(ctx.style().as_ref()))
+            .style(Style::from_egui(ctx.global_style().as_ref()))
             .show(ctx, &mut tab_viewer);
     }
 }

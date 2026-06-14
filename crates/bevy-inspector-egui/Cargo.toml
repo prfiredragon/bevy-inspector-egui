@@ -111,7 +111,7 @@ bevy = { version = "0.18.1", default-features = false, features = [
     "ktx2",
 ] }
 bevy_math = { version = "0.18.1", features = ["mint"] }
-egui_dock = { git = "https://github.com/Avarel/egui_dock", branch = "egui_0.33" }
+egui_dock = "0.19.1"#{ git = "https://github.com/Avarel/egui_dock", branch = "egui_0.33" }
 transform-gizmo-bevy = {git = "https://github.com/prfiredragon/transform-gizmo", branch = "bevy-0.18.1"}
 # bevy_mod_picking = { git = "https://github.com/aevyrie/bevy_mod_picking", rev = "554649a951689dce66d0d759839b326874e8826f", default-features = false, features = ["backend_raycast", "backend_egui", "backend_sprite"] }
 # bevy_framepace = "0.11"
